@@ -1,0 +1,1342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F2DE05B21D4E974001C5950 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2DE05A21D4E974001C5950 /* AppDelegate.swift */; };
+		3F2DE06021D4E974001C5950 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2DE05E21D4E974001C5950 /* Main.storyboard */; };
+		3F2DE06321D4E974001C5950 /* ShiXun.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F2DE06121D4E974001C5950 /* ShiXun.xcdatamodeld */; };
+		3F2DE06521D4E975001C5950 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F2DE06421D4E975001C5950 /* Assets.xcassets */; };
+		3F2DE06821D4E975001C5950 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2DE06621D4E975001C5950 /* LaunchScreen.storyboard */; };
+		3F2DE07321D4E975001C5950 /* ShiXunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2DE07221D4E975001C5950 /* ShiXunTests.swift */; };
+		3F2DE07E21D4E975001C5950 /* ShiXunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2DE07D21D4E975001C5950 /* ShiXunUITests.swift */; };
+		3F2DE13A21D4F9DB001C5950 /* MyAttentionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2DE13921D4F9DB001C5950 /* MyAttentionViewController.swift */; };
+		3F2DE13C21D4FA60001C5950 /* MyFansViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2DE13B21D4FA60001C5950 /* MyFansViewController.swift */; };
+		3F2DE14221D5020A001C5950 /* SQLiteDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2DE14021D5020A001C5950 /* SQLiteDB.swift */; };
+		3F2DE14321D5020A001C5950 /* SQLTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2DE14121D5020A001C5950 /* SQLTable.swift */; };
+		3F84886C21D5B2CC0085F1C9 /* user.db in Resources */ = {isa = PBXBuildFile; fileRef = 3F84886B21D5B2CC0085F1C9 /* user.db */; };
+		3F84886E21D5E62F0085F1C9 /* MyHealthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F84886D21D5E62F0085F1C9 /* MyHealthViewController.swift */; };
+		3F84887021D5FED20085F1C9 /* MyDeseaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F84886F21D5FED20085F1C9 /* MyDeseaseViewController.swift */; };
+		3F84887221D601230085F1C9 /* MyKindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F84887121D601230085F1C9 /* MyKindViewController.swift */; };
+		3F84887A21D60CC40085F1C9 /* back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F84887421D60CC40085F1C9 /* back.jpg */; };
+		3F84887B21D60CC40085F1C9 /* 健康.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F84887521D60CC40085F1C9 /* 健康.png */; };
+		3F84887C21D60CC40085F1C9 /* 女孩头像.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F84887621D60CC40085F1C9 /* 女孩头像.jpg */; };
+		3F84887D21D60CC40085F1C9 /* 男孩头像.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F84887721D60CC40085F1C9 /* 男孩头像.jpg */; };
+		3F84887F21D60CC40085F1C9 /* 笑话.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F84887921D60CC40085F1C9 /* 笑话.png */; };
+		3F84888221D60F530085F1C9 /* 粉丝.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F84888021D60F530085F1C9 /* 粉丝.png */; };
+		3F84888321D60F530085F1C9 /* My关注.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F84888121D60F530085F1C9 /* My关注.png */; };
+		3F84888521D61D6D0085F1C9 /* 思考.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F84888421D61D6D0085F1C9 /* 思考.png */; };
+		3F84897521D644130085F1C9 /* GzpageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F84897421D644130085F1C9 /* GzpageViewController.swift */; };
+		3F84897721D644A70085F1C9 /* GzpageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F84897621D644A70085F1C9 /* GzpageTableViewCell.swift */; };
+		3F8489CA21D64DFB0085F1C9 /* 添加 -白色.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F84898721D64DFB0085F1C9 /* 添加 -白色.png */; };
+		3F8489CB21D64DFB0085F1C9 /* 添加-配色.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F84898821D64DFB0085F1C9 /* 添加-配色.png */; };
+		3F8489E021D64DFB0085F1C9 /* 推荐.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8489A421D64DFB0085F1C9 /* 推荐.png */; };
+		3F8489E121D64DFB0085F1C9 /* 类目 品类 分类 类别-2-02.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8489A521D64DFB0085F1C9 /* 类目 品类 分类 类别-2-02.png */; };
+		3F8489E221D64DFB0085F1C9 /* m1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F8489A621D64DFB0085F1C9 /* m1.mp4 */; };
+		3F8489E321D64DFB0085F1C9 /* adorable-animal-blur-406014.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F8489A821D64DFB0085F1C9 /* adorable-animal-blur-406014.jpg */; };
+		3F8489E421D64DFB0085F1C9 /* adorable-animal-cat-54632.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F8489A921D64DFB0085F1C9 /* adorable-animal-cat-54632.jpg */; };
+		3F8489E521D64DFB0085F1C9 /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8489AA21D64DFB0085F1C9 /* launch.png */; };
+		3F8489E621D64DFB0085F1C9 /* adorable-animal-animal-photography-774731.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F8489AD21D64DFB0085F1C9 /* adorable-animal-animal-photography-774731.jpg */; };
+		3F8489E721D64DFB0085F1C9 /* animal-apple-device-background-343241.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F8489AE21D64DFB0085F1C9 /* animal-apple-device-background-343241.jpg */; };
+		3F8489E821D64DFB0085F1C9 /* animal-collar-dog-8700.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F8489AF21D64DFB0085F1C9 /* animal-collar-dog-8700.jpg */; };
+		3F8489E921D64DFB0085F1C9 /* adorable-animal-animal-photography-1629781.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F8489B121D64DFB0085F1C9 /* adorable-animal-animal-photography-1629781.jpg */; };
+		3F8489EA21D64DFB0085F1C9 /* adorable-animal-bed-374898.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F8489B221D64DFB0085F1C9 /* adorable-animal-bed-374898.jpg */; };
+		3F8489EB21D64DFB0085F1C9 /* adorable-animal-blur-686094.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F8489B321D64DFB0085F1C9 /* adorable-animal-blur-686094.jpg */; };
+		3F8489EC21D64DFB0085F1C9 /* adorable-animal-breed-710927.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F8489B421D64DFB0085F1C9 /* adorable-animal-breed-710927.jpg */; };
+		3F8489ED21D64DFB0085F1C9 /* adorable-animal-canine-800330.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F8489B521D64DFB0085F1C9 /* adorable-animal-canine-800330.jpg */; };
+		3F8489EE21D64DFB0085F1C9 /* animal-animal-photography-cat-104827.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F8489B621D64DFB0085F1C9 /* animal-animal-photography-cat-104827.jpg */; };
+		3F8489EF21D64DFB0085F1C9 /* animal-border-collie-dog-37860.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F8489B721D64DFB0085F1C9 /* animal-border-collie-dog-37860.jpg */; };
+		3F8489F021D64DFB0085F1C9 /* animal-canine-close-up-1660963.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F8489B821D64DFB0085F1C9 /* animal-canine-close-up-1660963.jpg */; };
+		3F8489F121D64DFB0085F1C9 /* animal-cat-cute-74177.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F8489B921D64DFB0085F1C9 /* animal-cat-cute-74177.jpg */; };
+		3F8489F221D64DFB0085F1C9 /* beautiful-canine-cute-1390075.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F8489BA21D64DFB0085F1C9 /* beautiful-canine-cute-1390075.jpg */; };
+		3F8489F321D64DFB0085F1C9 /* 推荐分类10.zip in Resources */ = {isa = PBXBuildFile; fileRef = 3F8489BB21D64DFB0085F1C9 /* 推荐分类10.zip */; };
+		3F8489F421D64DFB0085F1C9 /* adorable-animal-animal-photography-1183434.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F8489BD21D64DFB0085F1C9 /* adorable-animal-animal-photography-1183434.jpg */; };
+		3F8489F521D64DFB0085F1C9 /* adorable-animal-animal-photography-612813.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F8489BE21D64DFB0085F1C9 /* adorable-animal-animal-photography-612813.jpg */; };
+		3F8489F621D64DFB0085F1C9 /* adorable-animal-art-271955.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F8489BF21D64DFB0085F1C9 /* adorable-animal-art-271955.jpg */; };
+		3F8489F721D64DFB0085F1C9 /* adorable-animal-baby-1619494.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F8489C121D64DFB0085F1C9 /* adorable-animal-baby-1619494.jpg */; };
+		3F8489F821D64DFB0085F1C9 /* adorable-animal-canine-128817.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F8489C221D64DFB0085F1C9 /* adorable-animal-canine-128817.jpg */; };
+		3F8489F921D64DFB0085F1C9 /* adorable-animal-cat-137049.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F8489C321D64DFB0085F1C9 /* adorable-animal-cat-137049.jpg */; };
+		3F8489FA21D64DFB0085F1C9 /* animal-bed-cat-103651.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F8489C421D64DFB0085F1C9 /* animal-bed-cat-103651.jpg */; };
+		3F8489FE21D650E00085F1C9 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8489FD21D650E00085F1C9 /* MovieViewController.swift */; };
+		3F848A9521D653EC0085F1C9 /* CatKinds.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F848A6321D653E80085F1C9 /* CatKinds.plist */; };
+		3F848A9621D653EC0085F1C9 /* Dogkinds.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F848A6421D653E80085F1C9 /* Dogkinds.plist */; };
+		3F848A9721D653EC0085F1C9 /* RecommendList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F848A6521D653E80085F1C9 /* RecommendList.plist */; };
+		3F848A9821D653EC0085F1C9 /* 主页.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F848A6621D653E80085F1C9 /* 主页.png */; };
+		3F848A9B21D653EC0085F1C9 /* 分类.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F848A6921D653E80085F1C9 /* 分类.png */; };
+		3F848A9E21D653EC0085F1C9 /* 搜索.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F848A6C21D653E80085F1C9 /* 搜索.png */; };
+		3F848A9F21D653EC0085F1C9 /* 收藏.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F848A6D21D653E80085F1C9 /* 收藏.png */; };
+		3F848AA021D653EC0085F1C9 /* 6岛岛.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F848A6F21D653E80085F1C9 /* 6岛岛.jpg */; };
+		3F848AA121D653EC0085F1C9 /* 6岛岛的狗.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F848A7021D653E80085F1C9 /* 6岛岛的狗.jpg */; };
+		3F848AA221D653EC0085F1C9 /* LEO他爹.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F848A7121D653E80085F1C9 /* LEO他爹.jpg */; };
+		3F848AA321D653EC0085F1C9 /* LEO.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F848A7221D653E80085F1C9 /* LEO.jpg */; };
+		3F848AA421D653EC0085F1C9 /* 12 天线宝宝-01-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F848A7421D653E80085F1C9 /* 12 天线宝宝-01-01.png */; };
+		3F848AA521D653EC0085F1C9 /* 13 汤姆猫-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F848A7521D653E80085F1C9 /* 13 汤姆猫-01.png */; };
+		3F848AA621D653EC0085F1C9 /* 14 杰瑞鼠-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F848A7621D653E80085F1C9 /* 14 杰瑞鼠-01.png */; };
+		3F848AA721D653EC0085F1C9 /* 19 史努比-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F848A7721D653E80085F1C9 /* 19 史努比-01.png */; };
+		3F848AA821D653EC0085F1C9 /* 2 多啦a梦-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F848A7821D653E80085F1C9 /* 2 多啦a梦-01.png */; };
+		3F848AA921D653EC0085F1C9 /* 20 龙猫-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F848A7921D653E80085F1C9 /* 20 龙猫-01.png */; };
+		3F848AAA21D653EC0085F1C9 /* 3 神奇宝贝-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F848A7A21D653E80085F1C9 /* 3 神奇宝贝-01.png */; };
+		3F848AAB21D653EC0085F1C9 /* 5 米老鼠-01-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F848A7B21D653E80085F1C9 /* 5 米老鼠-01-01.png */; };
+		3F848AAC21D653EC0085F1C9 /* 7 小熊维尼-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F848A7C21D653E80085F1C9 /* 7 小熊维尼-01.png */; };
+		3F848AAD21D653EC0085F1C9 /* 9 鼹鼠的故事-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F848A7D21D653E80085F1C9 /* 9 鼹鼠的故事-01.png */; };
+		3F848AAE21D653EC0085F1C9 /* dog0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F848A7F21D653E80085F1C9 /* dog0.jpg */; };
+		3F848AAF21D653EC0085F1C9 /* dog1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F848A8021D653E80085F1C9 /* dog1.jpeg */; };
+		3F848AB021D653EC0085F1C9 /* dog2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F848A8121D653E80085F1C9 /* dog2.jpg */; };
+		3F848AB121D653EC0085F1C9 /* dog3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F848A8221D653E80085F1C9 /* dog3.jpeg */; };
+		3F848AB221D653EC0085F1C9 /* dog4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F848A8321D653E80085F1C9 /* dog4.jpg */; };
+		3F848AB321D653EC0085F1C9 /* dog5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F848A8421D653E80085F1C9 /* dog5.jpeg */; };
+		3F848AB421D653EC0085F1C9 /* dog6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F848A8521D653E80085F1C9 /* dog6.jpg */; };
+		3F848AB521D653EC0085F1C9 /* dog7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F848A8621D653E80085F1C9 /* dog7.jpeg */; };
+		3F848AB621D653EC0085F1C9 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F848A8821D653E80085F1C9 /* 1.png */; };
+		3F848AB721D653EC0085F1C9 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F848A8921D653E80085F1C9 /* 2.png */; };
+		3F848AB821D653EC0085F1C9 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F848A8A21D653E80085F1C9 /* 3.png */; };
+		3F848AB921D653EC0085F1C9 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F848A8B21D653E80085F1C9 /* 4.png */; };
+		3F848ABA21D653EC0085F1C9 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F848A8C21D653E80085F1C9 /* 5.png */; };
+		3F848ABB21D653EC0085F1C9 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F848A8D21D653E80085F1C9 /* 6.png */; };
+		3F848ABC21D653EC0085F1C9 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F848A8E21D653E80085F1C9 /* 7.png */; };
+		3F848ABD21D653EC0085F1C9 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F848A8F21D653E80085F1C9 /* 8.png */; };
+		3F848ABE21D653EC0085F1C9 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F848A9021D653E80085F1C9 /* 9.png */; };
+		3F848ABF21D653EC0085F1C9 /* 吾皇的狗.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F848A9121D653E80085F1C9 /* 吾皇的狗.jpg */; };
+		3F848AC021D653EC0085F1C9 /* 吾皇的白茶.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F848A9221D653E80085F1C9 /* 吾皇的白茶.jpg */; };
+		3F848AC121D653EC0085F1C9 /* 国民老岳父公.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F848A9321D653E80085F1C9 /* 国民老岳父公.jpg */; };
+		3F848AC221D653EC0085F1C9 /* 老岳父.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F848A9421D653E80085F1C9 /* 老岳父.jpg */; };
+		3F848AD021D654550085F1C9 /* PoKemonWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F848AC321D654530085F1C9 /* PoKemonWebViewController.swift */; };
+		3F848AD121D654550085F1C9 /* WuHuangViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F848AC421D654530085F1C9 /* WuHuangViewController.swift */; };
+		3F848AD221D654560085F1C9 /* DogKindsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F848AC521D654530085F1C9 /* DogKindsViewController.swift */; };
+		3F848AD321D654560085F1C9 /* 6ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F848AC621D654540085F1C9 /* 6ScrollViewController.swift */; };
+		3F848AD421D654560085F1C9 /* CatKindsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F848AC721D654540085F1C9 /* CatKindsViewController.swift */; };
+		3F848AD521D654560085F1C9 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F848AC821D654540085F1C9 /* TabBarViewController.swift */; };
+		3F848AD621D654560085F1C9 /* KindsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F848AC921D654540085F1C9 /* KindsViewController.swift */; };
+		3F848AD721D654560085F1C9 /* DogKindsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F848ACA21D654540085F1C9 /* DogKindsTableViewCell.swift */; };
+		3F848AD821D654560085F1C9 /* CatKindsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F848ACB21D654550085F1C9 /* CatKindsDetailViewController.swift */; };
+		3F848AD921D654560085F1C9 /* CatKindsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F848ACC21D654550085F1C9 /* CatKindsTableViewCell.swift */; };
+		3F848ADA21D654560085F1C9 /* LEOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F848ACD21D654550085F1C9 /* LEOViewController.swift */; };
+		3F848ADB21D654560085F1C9 /* GuoMinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F848ACE21D654550085F1C9 /* GuoMinViewController.swift */; };
+		3F848ADC21D654560085F1C9 /* DogKindsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F848ACF21D654550085F1C9 /* DogKindsDetailViewController.swift */; };
+		3F848AFE21D66D2A0085F1C9 /* 小鸟.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F848ADF21D66D280085F1C9 /* 小鸟.png */; };
+		3F848AFF21D66D2A0085F1C9 /* 狗狗出售.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F848AE021D66D280085F1C9 /* 狗狗出售.png */; };
+		3F848B0021D66D2A0085F1C9 /* 猫猫出售.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F848AE121D66D280085F1C9 /* 猫猫出售.png */; };
+		3F848B0121D66D2A0085F1C9 /* 老鼠.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F848AE221D66D280085F1C9 /* 老鼠.png */; };
+		3F848B0221D66D2A0085F1C9 /* CwypList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F848AE421D66D280085F1C9 /* CwypList.plist */; };
+		3F848B0321D66D2A0085F1C9 /* Gc1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F848AE521D66D280085F1C9 /* Gc1.jpg */; };
+		3F848B0421D66D2A0085F1C9 /* Gc10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F848AE621D66D280085F1C9 /* Gc10.jpg */; };
+		3F848B0521D66D2A0085F1C9 /* Gc11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F848AE721D66D280085F1C9 /* Gc11.jpg */; };
+		3F848B0621D66D2A0085F1C9 /* Gc12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F848AE821D66D280085F1C9 /* Gc12.jpg */; };
+		3F848B0721D66D2A0085F1C9 /* Gc2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F848AE921D66D280085F1C9 /* Gc2.jpg */; };
+		3F848B0821D66D2A0085F1C9 /* Gc3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F848AEA21D66D280085F1C9 /* Gc3.jpg */; };
+		3F848B0921D66D2A0085F1C9 /* Gc4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F848AEB21D66D280085F1C9 /* Gc4.jpg */; };
+		3F848B0A21D66D2A0085F1C9 /* Gc5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F848AEC21D66D280085F1C9 /* Gc5.jpg */; };
+		3F848B0B21D66D2A0085F1C9 /* Gc6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F848AED21D66D280085F1C9 /* Gc6.jpg */; };
+		3F848B0C21D66D2A0085F1C9 /* Gc7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F848AEE21D66D280085F1C9 /* Gc7.jpg */; };
+		3F848B0D21D66D2A0085F1C9 /* Gc8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F848AEF21D66D280085F1C9 /* Gc8.jpg */; };
+		3F848B0E21D66D2A0085F1C9 /* Gc9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F848AF021D66D280085F1C9 /* Gc9.jpg */; };
+		3F848B0F21D66D2A0085F1C9 /* 医疗用品.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F848AF121D66D280085F1C9 /* 医疗用品.png */; };
+		3F848B1021D66D2A0085F1C9 /* 喂食器皿.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F848AF221D66D280085F1C9 /* 喂食器皿.png */; };
+		3F848B1121D66D2A0085F1C9 /* 宠物美容.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F848AF321D66D280085F1C9 /* 宠物美容.png */; };
+		3F848B1221D66D2A0085F1C9 /* 待产服务.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F848AF421D66D280085F1C9 /* 待产服务.png */; };
+		3F848B1321D66D2A0085F1C9 /* Gcplist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F848AF621D66D280085F1C9 /* Gcplist.plist */; };
+		3F848B1421D66D2A0085F1C9 /* p1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F848AF721D66D280085F1C9 /* p1.jpg */; };
+		3F848B1521D66D2A0085F1C9 /* p2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F848AF821D66D280085F1C9 /* p2.jpg */; };
+		3F848B1621D66D2A0085F1C9 /* p3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F848AF921D66D280085F1C9 /* p3.jpg */; };
+		3F848B1721D66D2A0085F1C9 /* p4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F848AFA21D66D280085F1C9 /* p4.jpg */; };
+		3F848B1821D66D2A0085F1C9 /* p5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F848AFB21D66D280085F1C9 /* p5.jpg */; };
+		3F848B1921D66D2A0085F1C9 /* 市场.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F848AFC21D66D280085F1C9 /* 市场.png */; };
+		3F848B1A21D66D2A0085F1C9 /* 知识.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F848AFD21D66D280085F1C9 /* 知识.png */; };
+		3F848B2121D66D590085F1C9 /* GcShouyangViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F848B1B21D66D570085F1C9 /* GcShouyangViewController.swift */; };
+		3F848B2221D66D590085F1C9 /* Gclastcwyp2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F848B1C21D66D580085F1C9 /* Gclastcwyp2ViewController.swift */; };
+		3F848B2321D66D590085F1C9 /* ChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F848B1D21D66D580085F1C9 /* ChooseViewController.swift */; };
+		3F848B2421D66D590085F1C9 /* GccwypTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F848B1E21D66D580085F1C9 /* GccwypTableViewCell.swift */; };
+		3F848B2521D66D590085F1C9 /* GcDetailCwypViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F848B1F21D66D580085F1C9 /* GcDetailCwypViewController.swift */; };
+		3F848B2621D66D590085F1C9 /* GcDetailXiaozhishiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F848B2021D66D580085F1C9 /* GcDetailXiaozhishiViewController.swift */; };
+		3FF4A8E921D7075A00A0A7CE /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF4A8E821D7075A00A0A7CE /* MainTabBar.swift */; };
+		3FF4A8EE21D7110800A0A7CE /* 我的.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF4A8EA21D7110800A0A7CE /* 我的.png */; };
+		3FF4A8EF21D7110800A0A7CE /* 广场鱼.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF4A8EB21D7110800A0A7CE /* 广场鱼.png */; };
+		3FF4A8F021D7110800A0A7CE /* 关注.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF4A8EC21D7110800A0A7CE /* 关注.png */; };
+		3FF4A8F121D7110800A0A7CE /* 喵.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF4A8ED21D7110800A0A7CE /* 喵.png */; };
+		C21B699F21D67F3A008AA79A /* GcCwypViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21B699E21D67F3A008AA79A /* GcCwypViewController.swift */; };
+		C21B69A321D68449008AA79A /* GcpageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21B69A221D68449008AA79A /* GcpageViewController.swift */; };
+		C21B69A521D68DD3008AA79A /* gzTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21B69A421D68DD3008AA79A /* gzTableViewCell.swift */; };
+		C21B69A721D691CF008AA79A /* MyfansTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21B69A621D691CF008AA79A /* MyfansTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F2DE06F21D4E975001C5950 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F2DE04F21D4E974001C5950 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F2DE05621D4E974001C5950;
+			remoteInfo = ShiXun;
+		};
+		3F2DE07A21D4E975001C5950 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F2DE04F21D4E974001C5950 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F2DE05621D4E974001C5950;
+			remoteInfo = ShiXun;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F2DE05721D4E974001C5950 /* ShiXun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShiXun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F2DE05A21D4E974001C5950 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F2DE05F21D4E974001C5950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F2DE06221D4E974001C5950 /* ShiXun.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShiXun.xcdatamodel; sourceTree = "<group>"; };
+		3F2DE06421D4E975001C5950 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F2DE06721D4E975001C5950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F2DE06921D4E975001C5950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F2DE06E21D4E975001C5950 /* ShiXunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShiXunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F2DE07221D4E975001C5950 /* ShiXunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiXunTests.swift; sourceTree = "<group>"; };
+		3F2DE07421D4E975001C5950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F2DE07921D4E975001C5950 /* ShiXunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShiXunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F2DE07D21D4E975001C5950 /* ShiXunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiXunUITests.swift; sourceTree = "<group>"; };
+		3F2DE07F21D4E975001C5950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F2DE13921D4F9DB001C5950 /* MyAttentionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAttentionViewController.swift; sourceTree = "<group>"; };
+		3F2DE13B21D4FA60001C5950 /* MyFansViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFansViewController.swift; sourceTree = "<group>"; };
+		3F2DE13F21D501EE001C5950 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		3F2DE14021D5020A001C5950 /* SQLiteDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteDB.swift; sourceTree = "<group>"; };
+		3F2DE14121D5020A001C5950 /* SQLTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLTable.swift; sourceTree = "<group>"; };
+		3F84886B21D5B2CC0085F1C9 /* user.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = user.db; path = ShiXun/user.db; sourceTree = "<group>"; };
+		3F84886D21D5E62F0085F1C9 /* MyHealthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHealthViewController.swift; sourceTree = "<group>"; };
+		3F84886F21D5FED20085F1C9 /* MyDeseaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDeseaseViewController.swift; sourceTree = "<group>"; };
+		3F84887121D601230085F1C9 /* MyKindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKindViewController.swift; sourceTree = "<group>"; };
+		3F84887421D60CC40085F1C9 /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
+		3F84887521D60CC40085F1C9 /* 健康.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "健康.png"; sourceTree = "<group>"; };
+		3F84887621D60CC40085F1C9 /* 女孩头像.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "女孩头像.jpg"; sourceTree = "<group>"; };
+		3F84887721D60CC40085F1C9 /* 男孩头像.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "男孩头像.jpg"; sourceTree = "<group>"; };
+		3F84887921D60CC40085F1C9 /* 笑话.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "笑话.png"; sourceTree = "<group>"; };
+		3F84888021D60F530085F1C9 /* 粉丝.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "粉丝.png"; sourceTree = "<group>"; };
+		3F84888121D60F530085F1C9 /* My关注.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "My关注.png"; sourceTree = "<group>"; };
+		3F84888421D61D6D0085F1C9 /* 思考.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "思考.png"; sourceTree = "<group>"; };
+		3F84897421D644130085F1C9 /* GzpageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GzpageViewController.swift; sourceTree = "<group>"; };
+		3F84897621D644A70085F1C9 /* GzpageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GzpageTableViewCell.swift; sourceTree = "<group>"; };
+		3F84898721D64DFB0085F1C9 /* 添加 -白色.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加 -白色.png"; sourceTree = "<group>"; };
+		3F84898821D64DFB0085F1C9 /* 添加-配色.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加-配色.png"; sourceTree = "<group>"; };
+		3F8489A421D64DFB0085F1C9 /* 推荐.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "推荐.png"; sourceTree = "<group>"; };
+		3F8489A521D64DFB0085F1C9 /* 类目 品类 分类 类别-2-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "类目 品类 分类 类别-2-02.png"; sourceTree = "<group>"; };
+		3F8489A621D64DFB0085F1C9 /* m1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = m1.mp4; sourceTree = "<group>"; };
+		3F8489A821D64DFB0085F1C9 /* adorable-animal-blur-406014.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "adorable-animal-blur-406014.jpg"; sourceTree = "<group>"; };
+		3F8489A921D64DFB0085F1C9 /* adorable-animal-cat-54632.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "adorable-animal-cat-54632.jpg"; sourceTree = "<group>"; };
+		3F8489AA21D64DFB0085F1C9 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
+		3F8489AD21D64DFB0085F1C9 /* adorable-animal-animal-photography-774731.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "adorable-animal-animal-photography-774731.jpg"; sourceTree = "<group>"; };
+		3F8489AE21D64DFB0085F1C9 /* animal-apple-device-background-343241.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "animal-apple-device-background-343241.jpg"; sourceTree = "<group>"; };
+		3F8489AF21D64DFB0085F1C9 /* animal-collar-dog-8700.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "animal-collar-dog-8700.jpg"; sourceTree = "<group>"; };
+		3F8489B121D64DFB0085F1C9 /* adorable-animal-animal-photography-1629781.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "adorable-animal-animal-photography-1629781.jpg"; sourceTree = "<group>"; };
+		3F8489B221D64DFB0085F1C9 /* adorable-animal-bed-374898.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "adorable-animal-bed-374898.jpg"; sourceTree = "<group>"; };
+		3F8489B321D64DFB0085F1C9 /* adorable-animal-blur-686094.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "adorable-animal-blur-686094.jpg"; sourceTree = "<group>"; };
+		3F8489B421D64DFB0085F1C9 /* adorable-animal-breed-710927.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "adorable-animal-breed-710927.jpg"; sourceTree = "<group>"; };
+		3F8489B521D64DFB0085F1C9 /* adorable-animal-canine-800330.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "adorable-animal-canine-800330.jpg"; sourceTree = "<group>"; };
+		3F8489B621D64DFB0085F1C9 /* animal-animal-photography-cat-104827.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "animal-animal-photography-cat-104827.jpg"; sourceTree = "<group>"; };
+		3F8489B721D64DFB0085F1C9 /* animal-border-collie-dog-37860.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "animal-border-collie-dog-37860.jpg"; sourceTree = "<group>"; };
+		3F8489B821D64DFB0085F1C9 /* animal-canine-close-up-1660963.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "animal-canine-close-up-1660963.jpg"; sourceTree = "<group>"; };
+		3F8489B921D64DFB0085F1C9 /* animal-cat-cute-74177.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "animal-cat-cute-74177.jpg"; sourceTree = "<group>"; };
+		3F8489BA21D64DFB0085F1C9 /* beautiful-canine-cute-1390075.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "beautiful-canine-cute-1390075.jpg"; sourceTree = "<group>"; };
+		3F8489BB21D64DFB0085F1C9 /* 推荐分类10.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "推荐分类10.zip"; sourceTree = "<group>"; };
+		3F8489BD21D64DFB0085F1C9 /* adorable-animal-animal-photography-1183434.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "adorable-animal-animal-photography-1183434.jpg"; sourceTree = "<group>"; };
+		3F8489BE21D64DFB0085F1C9 /* adorable-animal-animal-photography-612813.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "adorable-animal-animal-photography-612813.jpg"; sourceTree = "<group>"; };
+		3F8489BF21D64DFB0085F1C9 /* adorable-animal-art-271955.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "adorable-animal-art-271955.jpg"; sourceTree = "<group>"; };
+		3F8489C121D64DFB0085F1C9 /* adorable-animal-baby-1619494.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "adorable-animal-baby-1619494.jpg"; sourceTree = "<group>"; };
+		3F8489C221D64DFB0085F1C9 /* adorable-animal-canine-128817.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "adorable-animal-canine-128817.jpg"; sourceTree = "<group>"; };
+		3F8489C321D64DFB0085F1C9 /* adorable-animal-cat-137049.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "adorable-animal-cat-137049.jpg"; sourceTree = "<group>"; };
+		3F8489C421D64DFB0085F1C9 /* animal-bed-cat-103651.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "animal-bed-cat-103651.jpg"; sourceTree = "<group>"; };
+		3F8489FD21D650E00085F1C9 /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		3F848A6321D653E80085F1C9 /* CatKinds.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CatKinds.plist; sourceTree = "<group>"; };
+		3F848A6421D653E80085F1C9 /* Dogkinds.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Dogkinds.plist; sourceTree = "<group>"; };
+		3F848A6521D653E80085F1C9 /* RecommendList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RecommendList.plist; sourceTree = "<group>"; };
+		3F848A6621D653E80085F1C9 /* 主页.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主页.png"; sourceTree = "<group>"; };
+		3F848A6921D653E80085F1C9 /* 分类.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分类.png"; sourceTree = "<group>"; };
+		3F848A6C21D653E80085F1C9 /* 搜索.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索.png"; sourceTree = "<group>"; };
+		3F848A6D21D653E80085F1C9 /* 收藏.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "收藏.png"; sourceTree = "<group>"; };
+		3F848A6F21D653E80085F1C9 /* 6岛岛.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6岛岛.jpg"; sourceTree = "<group>"; };
+		3F848A7021D653E80085F1C9 /* 6岛岛的狗.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6岛岛的狗.jpg"; sourceTree = "<group>"; };
+		3F848A7121D653E80085F1C9 /* LEO他爹.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "LEO他爹.jpg"; sourceTree = "<group>"; };
+		3F848A7221D653E80085F1C9 /* LEO.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LEO.jpg; sourceTree = "<group>"; };
+		3F848A7421D653E80085F1C9 /* 12 天线宝宝-01-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "12 天线宝宝-01-01.png"; sourceTree = "<group>"; };
+		3F848A7521D653E80085F1C9 /* 13 汤姆猫-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "13 汤姆猫-01.png"; sourceTree = "<group>"; };
+		3F848A7621D653E80085F1C9 /* 14 杰瑞鼠-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "14 杰瑞鼠-01.png"; sourceTree = "<group>"; };
+		3F848A7721D653E80085F1C9 /* 19 史努比-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "19 史努比-01.png"; sourceTree = "<group>"; };
+		3F848A7821D653E80085F1C9 /* 2 多啦a梦-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2 多啦a梦-01.png"; sourceTree = "<group>"; };
+		3F848A7921D653E80085F1C9 /* 20 龙猫-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20 龙猫-01.png"; sourceTree = "<group>"; };
+		3F848A7A21D653E80085F1C9 /* 3 神奇宝贝-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3 神奇宝贝-01.png"; sourceTree = "<group>"; };
+		3F848A7B21D653E80085F1C9 /* 5 米老鼠-01-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5 米老鼠-01-01.png"; sourceTree = "<group>"; };
+		3F848A7C21D653E80085F1C9 /* 7 小熊维尼-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "7 小熊维尼-01.png"; sourceTree = "<group>"; };
+		3F848A7D21D653E80085F1C9 /* 9 鼹鼠的故事-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "9 鼹鼠的故事-01.png"; sourceTree = "<group>"; };
+		3F848A7F21D653E80085F1C9 /* dog0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog0.jpg; sourceTree = "<group>"; };
+		3F848A8021D653E80085F1C9 /* dog1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog1.jpeg; sourceTree = "<group>"; };
+		3F848A8121D653E80085F1C9 /* dog2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog2.jpg; sourceTree = "<group>"; };
+		3F848A8221D653E80085F1C9 /* dog3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog3.jpeg; sourceTree = "<group>"; };
+		3F848A8321D653E80085F1C9 /* dog4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog4.jpg; sourceTree = "<group>"; };
+		3F848A8421D653E80085F1C9 /* dog5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog5.jpeg; sourceTree = "<group>"; };
+		3F848A8521D653E80085F1C9 /* dog6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog6.jpg; sourceTree = "<group>"; };
+		3F848A8621D653E80085F1C9 /* dog7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog7.jpeg; sourceTree = "<group>"; };
+		3F848A8821D653E80085F1C9 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		3F848A8921D653E80085F1C9 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		3F848A8A21D653E80085F1C9 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		3F848A8B21D653E80085F1C9 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		3F848A8C21D653E80085F1C9 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		3F848A8D21D653E80085F1C9 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		3F848A8E21D653E80085F1C9 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		3F848A8F21D653E80085F1C9 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		3F848A9021D653E80085F1C9 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		3F848A9121D653E80085F1C9 /* 吾皇的狗.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "吾皇的狗.jpg"; sourceTree = "<group>"; };
+		3F848A9221D653E80085F1C9 /* 吾皇的白茶.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "吾皇的白茶.jpg"; sourceTree = "<group>"; };
+		3F848A9321D653E80085F1C9 /* 国民老岳父公.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "国民老岳父公.jpg"; sourceTree = "<group>"; };
+		3F848A9421D653E80085F1C9 /* 老岳父.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "老岳父.jpg"; sourceTree = "<group>"; };
+		3F848AC321D654530085F1C9 /* PoKemonWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoKemonWebViewController.swift; sourceTree = "<group>"; };
+		3F848AC421D654530085F1C9 /* WuHuangViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WuHuangViewController.swift; sourceTree = "<group>"; };
+		3F848AC521D654530085F1C9 /* DogKindsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogKindsViewController.swift; sourceTree = "<group>"; };
+		3F848AC621D654540085F1C9 /* 6ScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 6ScrollViewController.swift; sourceTree = "<group>"; };
+		3F848AC721D654540085F1C9 /* CatKindsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatKindsViewController.swift; sourceTree = "<group>"; };
+		3F848AC821D654540085F1C9 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		3F848AC921D654540085F1C9 /* KindsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KindsViewController.swift; sourceTree = "<group>"; };
+		3F848ACA21D654540085F1C9 /* DogKindsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogKindsTableViewCell.swift; sourceTree = "<group>"; };
+		3F848ACB21D654550085F1C9 /* CatKindsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatKindsDetailViewController.swift; sourceTree = "<group>"; };
+		3F848ACC21D654550085F1C9 /* CatKindsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatKindsTableViewCell.swift; sourceTree = "<group>"; };
+		3F848ACD21D654550085F1C9 /* LEOViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LEOViewController.swift; sourceTree = "<group>"; };
+		3F848ACE21D654550085F1C9 /* GuoMinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuoMinViewController.swift; sourceTree = "<group>"; };
+		3F848ACF21D654550085F1C9 /* DogKindsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogKindsDetailViewController.swift; sourceTree = "<group>"; };
+		3F848ADF21D66D280085F1C9 /* 小鸟.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "小鸟.png"; sourceTree = "<group>"; };
+		3F848AE021D66D280085F1C9 /* 狗狗出售.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "狗狗出售.png"; sourceTree = "<group>"; };
+		3F848AE121D66D280085F1C9 /* 猫猫出售.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "猫猫出售.png"; sourceTree = "<group>"; };
+		3F848AE221D66D280085F1C9 /* 老鼠.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "老鼠.png"; sourceTree = "<group>"; };
+		3F848AE421D66D280085F1C9 /* CwypList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CwypList.plist; sourceTree = "<group>"; };
+		3F848AE521D66D280085F1C9 /* Gc1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gc1.jpg; sourceTree = "<group>"; };
+		3F848AE621D66D280085F1C9 /* Gc10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gc10.jpg; sourceTree = "<group>"; };
+		3F848AE721D66D280085F1C9 /* Gc11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gc11.jpg; sourceTree = "<group>"; };
+		3F848AE821D66D280085F1C9 /* Gc12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gc12.jpg; sourceTree = "<group>"; };
+		3F848AE921D66D280085F1C9 /* Gc2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gc2.jpg; sourceTree = "<group>"; };
+		3F848AEA21D66D280085F1C9 /* Gc3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gc3.jpg; sourceTree = "<group>"; };
+		3F848AEB21D66D280085F1C9 /* Gc4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gc4.jpg; sourceTree = "<group>"; };
+		3F848AEC21D66D280085F1C9 /* Gc5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gc5.jpg; sourceTree = "<group>"; };
+		3F848AED21D66D280085F1C9 /* Gc6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gc6.jpg; sourceTree = "<group>"; };
+		3F848AEE21D66D280085F1C9 /* Gc7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gc7.jpg; sourceTree = "<group>"; };
+		3F848AEF21D66D280085F1C9 /* Gc8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gc8.jpg; sourceTree = "<group>"; };
+		3F848AF021D66D280085F1C9 /* Gc9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gc9.jpg; sourceTree = "<group>"; };
+		3F848AF121D66D280085F1C9 /* 医疗用品.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "医疗用品.png"; sourceTree = "<group>"; };
+		3F848AF221D66D280085F1C9 /* 喂食器皿.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "喂食器皿.png"; sourceTree = "<group>"; };
+		3F848AF321D66D280085F1C9 /* 宠物美容.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "宠物美容.png"; sourceTree = "<group>"; };
+		3F848AF421D66D280085F1C9 /* 待产服务.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "待产服务.png"; sourceTree = "<group>"; };
+		3F848AF621D66D280085F1C9 /* Gcplist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Gcplist.plist; sourceTree = "<group>"; };
+		3F848AF721D66D280085F1C9 /* p1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p1.jpg; sourceTree = "<group>"; };
+		3F848AF821D66D280085F1C9 /* p2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p2.jpg; sourceTree = "<group>"; };
+		3F848AF921D66D280085F1C9 /* p3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p3.jpg; sourceTree = "<group>"; };
+		3F848AFA21D66D280085F1C9 /* p4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p4.jpg; sourceTree = "<group>"; };
+		3F848AFB21D66D280085F1C9 /* p5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p5.jpg; sourceTree = "<group>"; };
+		3F848AFC21D66D280085F1C9 /* 市场.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "市场.png"; sourceTree = "<group>"; };
+		3F848AFD21D66D280085F1C9 /* 知识.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "知识.png"; sourceTree = "<group>"; };
+		3F848B1B21D66D570085F1C9 /* GcShouyangViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GcShouyangViewController.swift; sourceTree = "<group>"; };
+		3F848B1C21D66D580085F1C9 /* Gclastcwyp2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gclastcwyp2ViewController.swift; sourceTree = "<group>"; };
+		3F848B1D21D66D580085F1C9 /* ChooseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseViewController.swift; sourceTree = "<group>"; };
+		3F848B1E21D66D580085F1C9 /* GccwypTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GccwypTableViewCell.swift; sourceTree = "<group>"; };
+		3F848B1F21D66D580085F1C9 /* GcDetailCwypViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GcDetailCwypViewController.swift; sourceTree = "<group>"; };
+		3F848B2021D66D580085F1C9 /* GcDetailXiaozhishiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GcDetailXiaozhishiViewController.swift; sourceTree = "<group>"; };
+		3FF4A8E821D7075A00A0A7CE /* MainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
+		3FF4A8EA21D7110800A0A7CE /* 我的.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的.png"; sourceTree = "<group>"; };
+		3FF4A8EB21D7110800A0A7CE /* 广场鱼.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "广场鱼.png"; sourceTree = "<group>"; };
+		3FF4A8EC21D7110800A0A7CE /* 关注.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关注.png"; sourceTree = "<group>"; };
+		3FF4A8ED21D7110800A0A7CE /* 喵.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "喵.png"; sourceTree = "<group>"; };
+		C21B699E21D67F3A008AA79A /* GcCwypViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GcCwypViewController.swift; sourceTree = "<group>"; };
+		C21B69A221D68449008AA79A /* GcpageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GcpageViewController.swift; sourceTree = "<group>"; };
+		C21B69A421D68DD3008AA79A /* gzTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gzTableViewCell.swift; sourceTree = "<group>"; };
+		C21B69A621D691CF008AA79A /* MyfansTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyfansTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F2DE05421D4E974001C5950 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2DE06B21D4E975001C5950 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2DE07621D4E975001C5950 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F2DE04E21D4E974001C5950 = {
+			isa = PBXGroup;
+			children = (
+				3F84886B21D5B2CC0085F1C9 /* user.db */,
+				3F2DE13F21D501EE001C5950 /* Bridging-Header.h */,
+				3F2DE05921D4E974001C5950 /* ShiXun */,
+				3F2DE07121D4E975001C5950 /* ShiXunTests */,
+				3F2DE07C21D4E975001C5950 /* ShiXunUITests */,
+				3F2DE05821D4E974001C5950 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F2DE05821D4E974001C5950 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F2DE05721D4E974001C5950 /* ShiXun.app */,
+				3F2DE06E21D4E975001C5950 /* ShiXunTests.xctest */,
+				3F2DE07921D4E975001C5950 /* ShiXunUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F2DE05921D4E974001C5950 /* ShiXun */ = {
+			isa = PBXGroup;
+			children = (
+				3F848ADD21D66D280085F1C9 /* 广场 */,
+				3F848A6121D653E80085F1C9 /* 首页 */,
+				3F84897E21D64DFB0085F1C9 /* resource */,
+				3F84887321D60CC40085F1C9 /* Myimage */,
+				3F2DE14021D5020A001C5950 /* SQLiteDB.swift */,
+				3F2DE14121D5020A001C5950 /* SQLTable.swift */,
+				3F2DE05A21D4E974001C5950 /* AppDelegate.swift */,
+				C21B699E21D67F3A008AA79A /* GcCwypViewController.swift */,
+				3F848B1D21D66D580085F1C9 /* ChooseViewController.swift */,
+				3F848B1E21D66D580085F1C9 /* GccwypTableViewCell.swift */,
+				3F848B1F21D66D580085F1C9 /* GcDetailCwypViewController.swift */,
+				3F848B2021D66D580085F1C9 /* GcDetailXiaozhishiViewController.swift */,
+				3F848B1C21D66D580085F1C9 /* Gclastcwyp2ViewController.swift */,
+				3F848B1B21D66D570085F1C9 /* GcShouyangViewController.swift */,
+				3F848ACB21D654550085F1C9 /* CatKindsDetailViewController.swift */,
+				3F848ACC21D654550085F1C9 /* CatKindsTableViewCell.swift */,
+				3F848AC621D654540085F1C9 /* 6ScrollViewController.swift */,
+				3F848ACE21D654550085F1C9 /* GuoMinViewController.swift */,
+				3F848ACD21D654550085F1C9 /* LEOViewController.swift */,
+				3F848AC421D654530085F1C9 /* WuHuangViewController.swift */,
+				3F848AC721D654540085F1C9 /* CatKindsViewController.swift */,
+				3F848ACF21D654550085F1C9 /* DogKindsDetailViewController.swift */,
+				3F848ACA21D654540085F1C9 /* DogKindsTableViewCell.swift */,
+				3F848AC521D654530085F1C9 /* DogKindsViewController.swift */,
+				3F848AC921D654540085F1C9 /* KindsViewController.swift */,
+				3F848AC321D654530085F1C9 /* PoKemonWebViewController.swift */,
+				3F848AC821D654540085F1C9 /* TabBarViewController.swift */,
+				3F2DE05E21D4E974001C5950 /* Main.storyboard */,
+				3FF4A8E821D7075A00A0A7CE /* MainTabBar.swift */,
+				C21B69A421D68DD3008AA79A /* gzTableViewCell.swift */,
+				3F2DE13921D4F9DB001C5950 /* MyAttentionViewController.swift */,
+				3F84897621D644A70085F1C9 /* GzpageTableViewCell.swift */,
+				3F84897421D644130085F1C9 /* GzpageViewController.swift */,
+				3F8489FD21D650E00085F1C9 /* MovieViewController.swift */,
+				C21B69A621D691CF008AA79A /* MyfansTableViewCell.swift */,
+				3F2DE13B21D4FA60001C5950 /* MyFansViewController.swift */,
+				3F84887121D601230085F1C9 /* MyKindViewController.swift */,
+				3F84886F21D5FED20085F1C9 /* MyDeseaseViewController.swift */,
+				3F84886D21D5E62F0085F1C9 /* MyHealthViewController.swift */,
+				3F2DE06421D4E975001C5950 /* Assets.xcassets */,
+				3F2DE06621D4E975001C5950 /* LaunchScreen.storyboard */,
+				3F2DE06921D4E975001C5950 /* Info.plist */,
+				3F2DE06121D4E974001C5950 /* ShiXun.xcdatamodeld */,
+				C21B69A221D68449008AA79A /* GcpageViewController.swift */,
+			);
+			path = ShiXun;
+			sourceTree = "<group>";
+		};
+		3F2DE07121D4E975001C5950 /* ShiXunTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F2DE07221D4E975001C5950 /* ShiXunTests.swift */,
+				3F2DE07421D4E975001C5950 /* Info.plist */,
+			);
+			path = ShiXunTests;
+			sourceTree = "<group>";
+		};
+		3F2DE07C21D4E975001C5950 /* ShiXunUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F2DE07D21D4E975001C5950 /* ShiXunUITests.swift */,
+				3F2DE07F21D4E975001C5950 /* Info.plist */,
+			);
+			path = ShiXunUITests;
+			sourceTree = "<group>";
+		};
+		3F84887321D60CC40085F1C9 /* Myimage */ = {
+			isa = PBXGroup;
+			children = (
+				3F84888421D61D6D0085F1C9 /* 思考.png */,
+				3F84888021D60F530085F1C9 /* 粉丝.png */,
+				3F84888121D60F530085F1C9 /* My关注.png */,
+				3F84887421D60CC40085F1C9 /* back.jpg */,
+				3F84887521D60CC40085F1C9 /* 健康.png */,
+				3F84887621D60CC40085F1C9 /* 女孩头像.jpg */,
+				3F84887721D60CC40085F1C9 /* 男孩头像.jpg */,
+				3F84887921D60CC40085F1C9 /* 笑话.png */,
+			);
+			path = Myimage;
+			sourceTree = "<group>";
+		};
+		3F84897E21D64DFB0085F1C9 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				3F84897F21D64DFB0085F1C9 /* icon */,
+				3F8489A621D64DFB0085F1C9 /* m1.mp4 */,
+				3F8489A721D64DFB0085F1C9 /* photo */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		3F84897F21D64DFB0085F1C9 /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				3F84898621D64DFB0085F1C9 /* 发布—图标 */,
+				3F8489A421D64DFB0085F1C9 /* 推荐.png */,
+				3F8489A521D64DFB0085F1C9 /* 类目 品类 分类 类别-2-02.png */,
+			);
+			path = icon;
+			sourceTree = "<group>";
+		};
+		3F84898621D64DFB0085F1C9 /* 发布—图标 */ = {
+			isa = PBXGroup;
+			children = (
+				3F84898721D64DFB0085F1C9 /* 添加 -白色.png */,
+				3F84898821D64DFB0085F1C9 /* 添加-配色.png */,
+			);
+			path = "发布—图标";
+			sourceTree = "<group>";
+		};
+		3F8489A721D64DFB0085F1C9 /* photo */ = {
+			isa = PBXGroup;
+			children = (
+				3F8489A821D64DFB0085F1C9 /* adorable-animal-blur-406014.jpg */,
+				3F8489A921D64DFB0085F1C9 /* adorable-animal-cat-54632.jpg */,
+				3F8489AA21D64DFB0085F1C9 /* launch.png */,
+				3F8489AC21D64DFB0085F1C9 /* 市场:知识 */,
+				3F8489B021D64DFB0085F1C9 /* 推荐:分类（10） */,
+				3F8489BB21D64DFB0085F1C9 /* 推荐分类10.zip */,
+				3F8489BC21D64DFB0085F1C9 /* 收养 */,
+				3F8489C021D64DFB0085F1C9 /* 更新:发布（3） */,
+			);
+			path = photo;
+			sourceTree = "<group>";
+		};
+		3F8489AC21D64DFB0085F1C9 /* 市场:知识 */ = {
+			isa = PBXGroup;
+			children = (
+				3F8489AD21D64DFB0085F1C9 /* adorable-animal-animal-photography-774731.jpg */,
+				3F8489AE21D64DFB0085F1C9 /* animal-apple-device-background-343241.jpg */,
+				3F8489AF21D64DFB0085F1C9 /* animal-collar-dog-8700.jpg */,
+			);
+			path = "市场:知识";
+			sourceTree = "<group>";
+		};
+		3F8489B021D64DFB0085F1C9 /* 推荐:分类（10） */ = {
+			isa = PBXGroup;
+			children = (
+				3F8489B121D64DFB0085F1C9 /* adorable-animal-animal-photography-1629781.jpg */,
+				3F8489B221D64DFB0085F1C9 /* adorable-animal-bed-374898.jpg */,
+				3F8489B321D64DFB0085F1C9 /* adorable-animal-blur-686094.jpg */,
+				3F8489B421D64DFB0085F1C9 /* adorable-animal-breed-710927.jpg */,
+				3F8489B521D64DFB0085F1C9 /* adorable-animal-canine-800330.jpg */,
+				3F8489B621D64DFB0085F1C9 /* animal-animal-photography-cat-104827.jpg */,
+				3F8489B721D64DFB0085F1C9 /* animal-border-collie-dog-37860.jpg */,
+				3F8489B821D64DFB0085F1C9 /* animal-canine-close-up-1660963.jpg */,
+				3F8489B921D64DFB0085F1C9 /* animal-cat-cute-74177.jpg */,
+				3F8489BA21D64DFB0085F1C9 /* beautiful-canine-cute-1390075.jpg */,
+			);
+			path = "推荐:分类（10）";
+			sourceTree = "<group>";
+		};
+		3F8489BC21D64DFB0085F1C9 /* 收养 */ = {
+			isa = PBXGroup;
+			children = (
+				3F8489BD21D64DFB0085F1C9 /* adorable-animal-animal-photography-1183434.jpg */,
+				3F8489BE21D64DFB0085F1C9 /* adorable-animal-animal-photography-612813.jpg */,
+				3F8489BF21D64DFB0085F1C9 /* adorable-animal-art-271955.jpg */,
+			);
+			path = "收养";
+			sourceTree = "<group>";
+		};
+		3F8489C021D64DFB0085F1C9 /* 更新:发布（3） */ = {
+			isa = PBXGroup;
+			children = (
+				3F8489C121D64DFB0085F1C9 /* adorable-animal-baby-1619494.jpg */,
+				3F8489C221D64DFB0085F1C9 /* adorable-animal-canine-128817.jpg */,
+				3F8489C321D64DFB0085F1C9 /* adorable-animal-cat-137049.jpg */,
+				3F8489C421D64DFB0085F1C9 /* animal-bed-cat-103651.jpg */,
+			);
+			path = "更新:发布（3）";
+			sourceTree = "<group>";
+		};
+		3F848A6121D653E80085F1C9 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				3F848A6221D653E80085F1C9 /* 主界面—图标 */,
+				3F848A6E21D653E80085F1C9 /* 推荐:分类pic */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		3F848A6221D653E80085F1C9 /* 主界面—图标 */ = {
+			isa = PBXGroup;
+			children = (
+				3FF4A8EC21D7110800A0A7CE /* 关注.png */,
+				3FF4A8EB21D7110800A0A7CE /* 广场鱼.png */,
+				3FF4A8ED21D7110800A0A7CE /* 喵.png */,
+				3FF4A8EA21D7110800A0A7CE /* 我的.png */,
+				3F848A6321D653E80085F1C9 /* CatKinds.plist */,
+				3F848A6421D653E80085F1C9 /* Dogkinds.plist */,
+				3F848A6521D653E80085F1C9 /* RecommendList.plist */,
+				3F848A6621D653E80085F1C9 /* 主页.png */,
+				3F848A6921D653E80085F1C9 /* 分类.png */,
+				3F848A6C21D653E80085F1C9 /* 搜索.png */,
+				3F848A6D21D653E80085F1C9 /* 收藏.png */,
+			);
+			path = "主界面—图标";
+			sourceTree = "<group>";
+		};
+		3F848A6E21D653E80085F1C9 /* 推荐:分类pic */ = {
+			isa = PBXGroup;
+			children = (
+				3F848A6F21D653E80085F1C9 /* 6岛岛.jpg */,
+				3F848A7021D653E80085F1C9 /* 6岛岛的狗.jpg */,
+				3F848A7121D653E80085F1C9 /* LEO他爹.jpg */,
+				3F848A7221D653E80085F1C9 /* LEO.jpg */,
+				3F848A7321D653E80085F1C9 /* 分类图标 */,
+				3F848A9121D653E80085F1C9 /* 吾皇的狗.jpg */,
+				3F848A9221D653E80085F1C9 /* 吾皇的白茶.jpg */,
+				3F848A9321D653E80085F1C9 /* 国民老岳父公.jpg */,
+				3F848A9421D653E80085F1C9 /* 老岳父.jpg */,
+			);
+			path = "推荐:分类pic";
+			sourceTree = "<group>";
+		};
+		3F848A7321D653E80085F1C9 /* 分类图标 */ = {
+			isa = PBXGroup;
+			children = (
+				3F848A7421D653E80085F1C9 /* 12 天线宝宝-01-01.png */,
+				3F848A7521D653E80085F1C9 /* 13 汤姆猫-01.png */,
+				3F848A7621D653E80085F1C9 /* 14 杰瑞鼠-01.png */,
+				3F848A7721D653E80085F1C9 /* 19 史努比-01.png */,
+				3F848A7821D653E80085F1C9 /* 2 多啦a梦-01.png */,
+				3F848A7921D653E80085F1C9 /* 20 龙猫-01.png */,
+				3F848A7A21D653E80085F1C9 /* 3 神奇宝贝-01.png */,
+				3F848A7B21D653E80085F1C9 /* 5 米老鼠-01-01.png */,
+				3F848A7C21D653E80085F1C9 /* 7 小熊维尼-01.png */,
+				3F848A7D21D653E80085F1C9 /* 9 鼹鼠的故事-01.png */,
+				3F848A7E21D653E80085F1C9 /* 狗狗分类图片——plist素材 */,
+				3F848A8721D653E80085F1C9 /* 猫咪分类素材——plist */,
+			);
+			path = "分类图标";
+			sourceTree = "<group>";
+		};
+		3F848A7E21D653E80085F1C9 /* 狗狗分类图片——plist素材 */ = {
+			isa = PBXGroup;
+			children = (
+				3F848A7F21D653E80085F1C9 /* dog0.jpg */,
+				3F848A8021D653E80085F1C9 /* dog1.jpeg */,
+				3F848A8121D653E80085F1C9 /* dog2.jpg */,
+				3F848A8221D653E80085F1C9 /* dog3.jpeg */,
+				3F848A8321D653E80085F1C9 /* dog4.jpg */,
+				3F848A8421D653E80085F1C9 /* dog5.jpeg */,
+				3F848A8521D653E80085F1C9 /* dog6.jpg */,
+				3F848A8621D653E80085F1C9 /* dog7.jpeg */,
+			);
+			path = "狗狗分类图片——plist素材";
+			sourceTree = "<group>";
+		};
+		3F848A8721D653E80085F1C9 /* 猫咪分类素材——plist */ = {
+			isa = PBXGroup;
+			children = (
+				3F848A8821D653E80085F1C9 /* 1.png */,
+				3F848A8921D653E80085F1C9 /* 2.png */,
+				3F848A8A21D653E80085F1C9 /* 3.png */,
+				3F848A8B21D653E80085F1C9 /* 4.png */,
+				3F848A8C21D653E80085F1C9 /* 5.png */,
+				3F848A8D21D653E80085F1C9 /* 6.png */,
+				3F848A8E21D653E80085F1C9 /* 7.png */,
+				3F848A8F21D653E80085F1C9 /* 8.png */,
+				3F848A9021D653E80085F1C9 /* 9.png */,
+			);
+			path = "猫咪分类素材——plist";
+			sourceTree = "<group>";
+		};
+		3F848ADD21D66D280085F1C9 /* 广场 */ = {
+			isa = PBXGroup;
+			children = (
+				3F848ADE21D66D280085F1C9 /* 分类 */,
+				3F848AE321D66D280085F1C9 /* 宠物用品 */,
+				3F848AF521D66D280085F1C9 /* 收养 */,
+			);
+			path = "广场";
+			sourceTree = "<group>";
+		};
+		3F848ADE21D66D280085F1C9 /* 分类 */ = {
+			isa = PBXGroup;
+			children = (
+				3F848ADF21D66D280085F1C9 /* 小鸟.png */,
+				3F848AE021D66D280085F1C9 /* 狗狗出售.png */,
+				3F848AE121D66D280085F1C9 /* 猫猫出售.png */,
+				3F848AE221D66D280085F1C9 /* 老鼠.png */,
+			);
+			path = "分类";
+			sourceTree = "<group>";
+		};
+		3F848AE321D66D280085F1C9 /* 宠物用品 */ = {
+			isa = PBXGroup;
+			children = (
+				3F848AE421D66D280085F1C9 /* CwypList.plist */,
+				3F848AE521D66D280085F1C9 /* Gc1.jpg */,
+				3F848AE621D66D280085F1C9 /* Gc10.jpg */,
+				3F848AE721D66D280085F1C9 /* Gc11.jpg */,
+				3F848AE821D66D280085F1C9 /* Gc12.jpg */,
+				3F848AE921D66D280085F1C9 /* Gc2.jpg */,
+				3F848AEA21D66D280085F1C9 /* Gc3.jpg */,
+				3F848AEB21D66D280085F1C9 /* Gc4.jpg */,
+				3F848AEC21D66D280085F1C9 /* Gc5.jpg */,
+				3F848AED21D66D280085F1C9 /* Gc6.jpg */,
+				3F848AEE21D66D280085F1C9 /* Gc7.jpg */,
+				3F848AEF21D66D280085F1C9 /* Gc8.jpg */,
+				3F848AF021D66D280085F1C9 /* Gc9.jpg */,
+				3F848AF121D66D280085F1C9 /* 医疗用品.png */,
+				3F848AF221D66D280085F1C9 /* 喂食器皿.png */,
+				3F848AF321D66D280085F1C9 /* 宠物美容.png */,
+				3F848AF421D66D280085F1C9 /* 待产服务.png */,
+			);
+			path = "宠物用品";
+			sourceTree = "<group>";
+		};
+		3F848AF521D66D280085F1C9 /* 收养 */ = {
+			isa = PBXGroup;
+			children = (
+				3F848AF621D66D280085F1C9 /* Gcplist.plist */,
+				3F848AF721D66D280085F1C9 /* p1.jpg */,
+				3F848AF821D66D280085F1C9 /* p2.jpg */,
+				3F848AF921D66D280085F1C9 /* p3.jpg */,
+				3F848AFA21D66D280085F1C9 /* p4.jpg */,
+				3F848AFB21D66D280085F1C9 /* p5.jpg */,
+				3F848AFC21D66D280085F1C9 /* 市场.png */,
+				3F848AFD21D66D280085F1C9 /* 知识.png */,
+			);
+			path = "收养";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F2DE05621D4E974001C5950 /* ShiXun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F2DE08221D4E975001C5950 /* Build configuration list for PBXNativeTarget "ShiXun" */;
+			buildPhases = (
+				3F2DE05321D4E974001C5950 /* Sources */,
+				3F2DE05421D4E974001C5950 /* Frameworks */,
+				3F2DE05521D4E974001C5950 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShiXun;
+			productName = ShiXun;
+			productReference = 3F2DE05721D4E974001C5950 /* ShiXun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F2DE06D21D4E975001C5950 /* ShiXunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F2DE08521D4E975001C5950 /* Build configuration list for PBXNativeTarget "ShiXunTests" */;
+			buildPhases = (
+				3F2DE06A21D4E975001C5950 /* Sources */,
+				3F2DE06B21D4E975001C5950 /* Frameworks */,
+				3F2DE06C21D4E975001C5950 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F2DE07021D4E975001C5950 /* PBXTargetDependency */,
+			);
+			name = ShiXunTests;
+			productName = ShiXunTests;
+			productReference = 3F2DE06E21D4E975001C5950 /* ShiXunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F2DE07821D4E975001C5950 /* ShiXunUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F2DE08821D4E975001C5950 /* Build configuration list for PBXNativeTarget "ShiXunUITests" */;
+			buildPhases = (
+				3F2DE07521D4E975001C5950 /* Sources */,
+				3F2DE07621D4E975001C5950 /* Frameworks */,
+				3F2DE07721D4E975001C5950 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F2DE07B21D4E975001C5950 /* PBXTargetDependency */,
+			);
+			name = ShiXunUITests;
+			productName = ShiXunUITests;
+			productReference = 3F2DE07921D4E975001C5950 /* ShiXunUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F2DE04F21D4E974001C5950 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = lilu;
+				TargetAttributes = {
+					3F2DE05621D4E974001C5950 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					3F2DE06D21D4E975001C5950 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 3F2DE05621D4E974001C5950;
+					};
+					3F2DE07821D4E975001C5950 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 3F2DE05621D4E974001C5950;
+					};
+				};
+			};
+			buildConfigurationList = 3F2DE05221D4E974001C5950 /* Build configuration list for PBXProject "ShiXun" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F2DE04E21D4E974001C5950;
+			productRefGroup = 3F2DE05821D4E974001C5950 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F2DE05621D4E974001C5950 /* ShiXun */,
+				3F2DE06D21D4E975001C5950 /* ShiXunTests */,
+				3F2DE07821D4E975001C5950 /* ShiXunUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F2DE05521D4E974001C5950 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F848B0D21D66D2A0085F1C9 /* Gc8.jpg in Resources */,
+				3F848A9621D653EC0085F1C9 /* Dogkinds.plist in Resources */,
+				3F848B0621D66D2A0085F1C9 /* Gc12.jpg in Resources */,
+				3F848B0821D66D2A0085F1C9 /* Gc3.jpg in Resources */,
+				3F848B0421D66D2A0085F1C9 /* Gc10.jpg in Resources */,
+				3F8489E621D64DFB0085F1C9 /* adorable-animal-animal-photography-774731.jpg in Resources */,
+				3F848AA321D653EC0085F1C9 /* LEO.jpg in Resources */,
+				3F8489E021D64DFB0085F1C9 /* 推荐.png in Resources */,
+				3F848AAB21D653EC0085F1C9 /* 5 米老鼠-01-01.png in Resources */,
+				3F8489EE21D64DFB0085F1C9 /* animal-animal-photography-cat-104827.jpg in Resources */,
+				3F8489E321D64DFB0085F1C9 /* adorable-animal-blur-406014.jpg in Resources */,
+				3FF4A8EE21D7110800A0A7CE /* 我的.png in Resources */,
+				3F848AC221D653EC0085F1C9 /* 老岳父.jpg in Resources */,
+				3F848AB121D653EC0085F1C9 /* dog3.jpeg in Resources */,
+				3F848AC121D653EC0085F1C9 /* 国民老岳父公.jpg in Resources */,
+				3F8489E921D64DFB0085F1C9 /* adorable-animal-animal-photography-1629781.jpg in Resources */,
+				3F848AAE21D653EC0085F1C9 /* dog0.jpg in Resources */,
+				3F8489CA21D64DFB0085F1C9 /* 添加 -白色.png in Resources */,
+				3F8489EF21D64DFB0085F1C9 /* animal-border-collie-dog-37860.jpg in Resources */,
+				3F848B1021D66D2A0085F1C9 /* 喂食器皿.png in Resources */,
+				3F2DE06821D4E975001C5950 /* LaunchScreen.storyboard in Resources */,
+				3FF4A8EF21D7110800A0A7CE /* 广场鱼.png in Resources */,
+				3F848AA521D653EC0085F1C9 /* 13 汤姆猫-01.png in Resources */,
+				3F848AAD21D653EC0085F1C9 /* 9 鼹鼠的故事-01.png in Resources */,
+				3F848B0921D66D2A0085F1C9 /* Gc4.jpg in Resources */,
+				3F848B0021D66D2A0085F1C9 /* 猫猫出售.png in Resources */,
+				3F848AC021D653EC0085F1C9 /* 吾皇的白茶.jpg in Resources */,
+				3F84887B21D60CC40085F1C9 /* 健康.png in Resources */,
+				3F848ABD21D653EC0085F1C9 /* 8.png in Resources */,
+				3FF4A8F121D7110800A0A7CE /* 喵.png in Resources */,
+				3F848A9821D653EC0085F1C9 /* 主页.png in Resources */,
+				3F848AB021D653EC0085F1C9 /* dog2.jpg in Resources */,
+				3F848B0321D66D2A0085F1C9 /* Gc1.jpg in Resources */,
+				3F848B1A21D66D2A0085F1C9 /* 知识.png in Resources */,
+				3F8489F321D64DFB0085F1C9 /* 推荐分类10.zip in Resources */,
+				3F848ABF21D653EC0085F1C9 /* 吾皇的狗.jpg in Resources */,
+				3F848A9F21D653EC0085F1C9 /* 收藏.png in Resources */,
+				3F848ABB21D653EC0085F1C9 /* 6.png in Resources */,
+				3F848AB321D653EC0085F1C9 /* dog5.jpeg in Resources */,
+				3F848B1321D66D2A0085F1C9 /* Gcplist.plist in Resources */,
+				3F848AAF21D653EC0085F1C9 /* dog1.jpeg in Resources */,
+				3F848ABE21D653EC0085F1C9 /* 9.png in Resources */,
+				3F848AB721D653EC0085F1C9 /* 2.png in Resources */,
+				3F8489EA21D64DFB0085F1C9 /* adorable-animal-bed-374898.jpg in Resources */,
+				3F848B1421D66D2A0085F1C9 /* p1.jpg in Resources */,
+				3F848AFF21D66D2A0085F1C9 /* 狗狗出售.png in Resources */,
+				3F84888521D61D6D0085F1C9 /* 思考.png in Resources */,
+				3F848AA421D653EC0085F1C9 /* 12 天线宝宝-01-01.png in Resources */,
+				3F8489E421D64DFB0085F1C9 /* adorable-animal-cat-54632.jpg in Resources */,
+				3F8489E821D64DFB0085F1C9 /* animal-collar-dog-8700.jpg in Resources */,
+				3F848AAC21D653EC0085F1C9 /* 7 小熊维尼-01.png in Resources */,
+				3F848AA721D653EC0085F1C9 /* 19 史努比-01.png in Resources */,
+				3F84887D21D60CC40085F1C9 /* 男孩头像.jpg in Resources */,
+				3F8489F621D64DFB0085F1C9 /* adorable-animal-art-271955.jpg in Resources */,
+				3F848B1221D66D2A0085F1C9 /* 待产服务.png in Resources */,
+				3F848A9721D653EC0085F1C9 /* RecommendList.plist in Resources */,
+				3F8489E521D64DFB0085F1C9 /* launch.png in Resources */,
+				3F848AA821D653EC0085F1C9 /* 2 多啦a梦-01.png in Resources */,
+				3F848A9B21D653EC0085F1C9 /* 分类.png in Resources */,
+				3F848B1821D66D2A0085F1C9 /* p5.jpg in Resources */,
+				3F848B1521D66D2A0085F1C9 /* p2.jpg in Resources */,
+				3F848AA621D653EC0085F1C9 /* 14 杰瑞鼠-01.png in Resources */,
+				3F2DE06521D4E975001C5950 /* Assets.xcassets in Resources */,
+				3F8489CB21D64DFB0085F1C9 /* 添加-配色.png in Resources */,
+				3F8489F921D64DFB0085F1C9 /* adorable-animal-cat-137049.jpg in Resources */,
+				3F848B0121D66D2A0085F1C9 /* 老鼠.png in Resources */,
+				3F848A9521D653EC0085F1C9 /* CatKinds.plist in Resources */,
+				3F8489F521D64DFB0085F1C9 /* adorable-animal-animal-photography-612813.jpg in Resources */,
+				3F848AA921D653EC0085F1C9 /* 20 龙猫-01.png in Resources */,
+				3F8489EC21D64DFB0085F1C9 /* adorable-animal-breed-710927.jpg in Resources */,
+				3F84887F21D60CC40085F1C9 /* 笑话.png in Resources */,
+				3FF4A8F021D7110800A0A7CE /* 关注.png in Resources */,
+				3F8489F721D64DFB0085F1C9 /* adorable-animal-baby-1619494.jpg in Resources */,
+				3F8489E221D64DFB0085F1C9 /* m1.mp4 in Resources */,
+				3F848B1721D66D2A0085F1C9 /* p4.jpg in Resources */,
+				3F8489F221D64DFB0085F1C9 /* beautiful-canine-cute-1390075.jpg in Resources */,
+				3F848AB221D653EC0085F1C9 /* dog4.jpg in Resources */,
+				3F848AB921D653EC0085F1C9 /* 4.png in Resources */,
+				3F848B1921D66D2A0085F1C9 /* 市场.png in Resources */,
+				3F848AB421D653EC0085F1C9 /* dog6.jpg in Resources */,
+				3F848AA221D653EC0085F1C9 /* LEO他爹.jpg in Resources */,
+				3F848B0C21D66D2A0085F1C9 /* Gc7.jpg in Resources */,
+				3F8489E721D64DFB0085F1C9 /* animal-apple-device-background-343241.jpg in Resources */,
+				3F848AA121D653EC0085F1C9 /* 6岛岛的狗.jpg in Resources */,
+				3F848AAA21D653EC0085F1C9 /* 3 神奇宝贝-01.png in Resources */,
+				3F84886C21D5B2CC0085F1C9 /* user.db in Resources */,
+				3F848B1121D66D2A0085F1C9 /* 宠物美容.png in Resources */,
+				3F8489ED21D64DFB0085F1C9 /* adorable-animal-canine-800330.jpg in Resources */,
+				3F8489FA21D64DFB0085F1C9 /* animal-bed-cat-103651.jpg in Resources */,
+				3F848B0A21D66D2A0085F1C9 /* Gc5.jpg in Resources */,
+				3F2DE06021D4E974001C5950 /* Main.storyboard in Resources */,
+				3F848B0221D66D2A0085F1C9 /* CwypList.plist in Resources */,
+				3F848A9E21D653EC0085F1C9 /* 搜索.png in Resources */,
+				3F848AFE21D66D2A0085F1C9 /* 小鸟.png in Resources */,
+				3F8489E121D64DFB0085F1C9 /* 类目 品类 分类 类别-2-02.png in Resources */,
+				3F848ABA21D653EC0085F1C9 /* 5.png in Resources */,
+				3F848B0B21D66D2A0085F1C9 /* Gc6.jpg in Resources */,
+				3F8489F421D64DFB0085F1C9 /* adorable-animal-animal-photography-1183434.jpg in Resources */,
+				3F84887A21D60CC40085F1C9 /* back.jpg in Resources */,
+				3F8489F021D64DFB0085F1C9 /* animal-canine-close-up-1660963.jpg in Resources */,
+				3F848AB521D653EC0085F1C9 /* dog7.jpeg in Resources */,
+				3F848B0721D66D2A0085F1C9 /* Gc2.jpg in Resources */,
+				3F848B1621D66D2A0085F1C9 /* p3.jpg in Resources */,
+				3F848B0F21D66D2A0085F1C9 /* 医疗用品.png in Resources */,
+				3F8489F821D64DFB0085F1C9 /* adorable-animal-canine-128817.jpg in Resources */,
+				3F848AB621D653EC0085F1C9 /* 1.png in Resources */,
+				3F848AA021D653EC0085F1C9 /* 6岛岛.jpg in Resources */,
+				3F848ABC21D653EC0085F1C9 /* 7.png in Resources */,
+				3F8489F121D64DFB0085F1C9 /* animal-cat-cute-74177.jpg in Resources */,
+				3F84887C21D60CC40085F1C9 /* 女孩头像.jpg in Resources */,
+				3F84888321D60F530085F1C9 /* My关注.png in Resources */,
+				3F8489EB21D64DFB0085F1C9 /* adorable-animal-blur-686094.jpg in Resources */,
+				3F848B0521D66D2A0085F1C9 /* Gc11.jpg in Resources */,
+				3F848AB821D653EC0085F1C9 /* 3.png in Resources */,
+				3F848B0E21D66D2A0085F1C9 /* Gc9.jpg in Resources */,
+				3F84888221D60F530085F1C9 /* 粉丝.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2DE06C21D4E975001C5950 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2DE07721D4E975001C5950 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F2DE05321D4E974001C5950 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF4A8E921D7075A00A0A7CE /* MainTabBar.swift in Sources */,
+				3F848ADB21D654560085F1C9 /* GuoMinViewController.swift in Sources */,
+				3F848B2321D66D590085F1C9 /* ChooseViewController.swift in Sources */,
+				3F848ADA21D654560085F1C9 /* LEOViewController.swift in Sources */,
+				C21B69A321D68449008AA79A /* GcpageViewController.swift in Sources */,
+				C21B69A721D691CF008AA79A /* MyfansTableViewCell.swift in Sources */,
+				3F848AD121D654550085F1C9 /* WuHuangViewController.swift in Sources */,
+				3F8489FE21D650E00085F1C9 /* MovieViewController.swift in Sources */,
+				3F84897721D644A70085F1C9 /* GzpageTableViewCell.swift in Sources */,
+				3F2DE14321D5020A001C5950 /* SQLTable.swift in Sources */,
+				3F2DE13A21D4F9DB001C5950 /* MyAttentionViewController.swift in Sources */,
+				3F84897521D644130085F1C9 /* GzpageViewController.swift in Sources */,
+				C21B69A521D68DD3008AA79A /* gzTableViewCell.swift in Sources */,
+				C21B699F21D67F3A008AA79A /* GcCwypViewController.swift in Sources */,
+				3F848B2421D66D590085F1C9 /* GccwypTableViewCell.swift in Sources */,
+				3F848AD421D654560085F1C9 /* CatKindsViewController.swift in Sources */,
+				3F848B2121D66D590085F1C9 /* GcShouyangViewController.swift in Sources */,
+				3F84887021D5FED20085F1C9 /* MyDeseaseViewController.swift in Sources */,
+				3F848B2221D66D590085F1C9 /* Gclastcwyp2ViewController.swift in Sources */,
+				3F848AD021D654550085F1C9 /* PoKemonWebViewController.swift in Sources */,
+				3F848AD221D654560085F1C9 /* DogKindsViewController.swift in Sources */,
+				3F84886E21D5E62F0085F1C9 /* MyHealthViewController.swift in Sources */,
+				3F848AD621D654560085F1C9 /* KindsViewController.swift in Sources */,
+				3F2DE05B21D4E974001C5950 /* AppDelegate.swift in Sources */,
+				3F848AD521D654560085F1C9 /* TabBarViewController.swift in Sources */,
+				3F2DE13C21D4FA60001C5950 /* MyFansViewController.swift in Sources */,
+				3F2DE06321D4E974001C5950 /* ShiXun.xcdatamodeld in Sources */,
+				3F848AD921D654560085F1C9 /* CatKindsTableViewCell.swift in Sources */,
+				3F848ADC21D654560085F1C9 /* DogKindsDetailViewController.swift in Sources */,
+				3F84887221D601230085F1C9 /* MyKindViewController.swift in Sources */,
+				3F848B2521D66D590085F1C9 /* GcDetailCwypViewController.swift in Sources */,
+				3F848AD721D654560085F1C9 /* DogKindsTableViewCell.swift in Sources */,
+				3F2DE14221D5020A001C5950 /* SQLiteDB.swift in Sources */,
+				3F848B2621D66D590085F1C9 /* GcDetailXiaozhishiViewController.swift in Sources */,
+				3F848AD821D654560085F1C9 /* CatKindsDetailViewController.swift in Sources */,
+				3F848AD321D654560085F1C9 /* 6ScrollViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2DE06A21D4E975001C5950 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2DE07321D4E975001C5950 /* ShiXunTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2DE07521D4E975001C5950 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2DE07E21D4E975001C5950 /* ShiXunUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F2DE07021D4E975001C5950 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F2DE05621D4E974001C5950 /* ShiXun */;
+			targetProxy = 3F2DE06F21D4E975001C5950 /* PBXContainerItemProxy */;
+		};
+		3F2DE07B21D4E975001C5950 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F2DE05621D4E974001C5950 /* ShiXun */;
+			targetProxy = 3F2DE07A21D4E975001C5950 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F2DE05E21D4E974001C5950 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F2DE05F21D4E974001C5950 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F2DE06621D4E975001C5950 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F2DE06721D4E975001C5950 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F2DE08021D4E975001C5950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F2DE08121D4E975001C5950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F2DE08321D4E975001C5950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShiXun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-016110221.ShiXun";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F2DE08421D4E975001C5950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShiXun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-016110221.ShiXun";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F2DE08621D4E975001C5950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShiXunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-016110221.ShiXunTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShiXun.app/ShiXun";
+			};
+			name = Debug;
+		};
+		3F2DE08721D4E975001C5950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShiXunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-016110221.ShiXunTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShiXun.app/ShiXun";
+			};
+			name = Release;
+		};
+		3F2DE08921D4E975001C5950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShiXunUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-016110221.ShiXunUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShiXun;
+			};
+			name = Debug;
+		};
+		3F2DE08A21D4E975001C5950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShiXunUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-016110221.ShiXunUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShiXun;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F2DE05221D4E974001C5950 /* Build configuration list for PBXProject "ShiXun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2DE08021D4E975001C5950 /* Debug */,
+				3F2DE08121D4E975001C5950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F2DE08221D4E975001C5950 /* Build configuration list for PBXNativeTarget "ShiXun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2DE08321D4E975001C5950 /* Debug */,
+				3F2DE08421D4E975001C5950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F2DE08521D4E975001C5950 /* Build configuration list for PBXNativeTarget "ShiXunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2DE08621D4E975001C5950 /* Debug */,
+				3F2DE08721D4E975001C5950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F2DE08821D4E975001C5950 /* Build configuration list for PBXNativeTarget "ShiXunUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2DE08921D4E975001C5950 /* Debug */,
+				3F2DE08A21D4E975001C5950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3F2DE06121D4E974001C5950 /* ShiXun.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3F2DE06221D4E974001C5950 /* ShiXun.xcdatamodel */,
+			);
+			currentVersion = 3F2DE06221D4E974001C5950 /* ShiXun.xcdatamodel */;
+			path = ShiXun.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3F2DE04F21D4E974001C5950 /* Project object */;
+}

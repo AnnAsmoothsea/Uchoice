@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>theplace</string>
+		<key>detailImage</key>
+		<string>theplace_coffee_detail.png</string>
+		<key>logoImage</key>
+		<string>theplace_coffee_logo.png</string>
+		<key>intro</key>
+		<string>推荐：theplace.txt</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>星巴克</string>
+		<key>detailImage</key>
+		<string>starbucks_coffee_detail.png</string>
+		<key>logoImage</key>
+		<string>starbucks_coffee_logo.png</string>
+		<key>intro</key>
+		<string>推荐：星巴克.txt</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>漫咖啡</string>
+		<key>detailImage</key>
+		<string>man_coffee_detail.png</string>
+		<key>logoImage</key>
+		<string>man_coffee_logo.png</string>
+		<key>intro</key>
+		<string>推荐：漫咖啡.txt</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>良木缘</string>
+		<key>detailImage</key>
+		<string>goodwoods_coffee.detail.png</string>
+		<key>logoImage</key>
+		<string>goodwoods_coffee_logo.png</string>
+		<key>intro</key>
+		<string>推荐：良木缘.txt</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>轩客会</string>
+		<key>detailImage</key>
+		<string>winshare_detail.png</string>
+		<key>logoImage</key>
+		<string>winshare_logo.png</string>
+		<key>intro</key>
+		<string>推荐：轩客会.txt</string>
+	</dict>
+</array>
+</plist>
